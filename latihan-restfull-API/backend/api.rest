@@ -1,0 +1,28 @@
+GET HTTP://localhost:3001/
+
+###
+
+POST HTTP://localhost:3001/
+Content-Type: application/json
+
+{
+    "nama": "dev2",
+    "email": "dev@gmail.com",
+    "nohp": "0821621826"
+}
+###
+
+GET HTTP://localhost:3001/6310b3c008bb0783a93d5471
+###
+
+PUT HTTP://localhost:3001/63129faababa68744c550442
+Content-Type: application/json
+
+{
+    "nama": "tesdev2",
+    "email": "tesdev2@gmail.com",
+    "nohp": "0821621826"
+}
+###
+
+DELETE HTTP://localhost:3001/63129faababa68744c550442
